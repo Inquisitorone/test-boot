@@ -5,7 +5,7 @@ from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 import os
 
-API_TOKEN = os.getenv("TELEGRAM_API_TOKEN")
+TELEGRAM_API_TOKEN = os.getenv("8061299708:AAGNWggA1u1nxosvOimH2k53FeQ--aXcReE")
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
